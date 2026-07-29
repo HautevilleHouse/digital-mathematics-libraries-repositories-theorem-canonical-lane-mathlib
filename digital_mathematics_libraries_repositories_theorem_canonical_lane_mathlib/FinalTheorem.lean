@@ -1,0 +1,9 @@
+import digital_mathematics_libraries_repositories_theorem_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace digital_mathematics_libraries_repositories_theorem_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end digital_mathematics_libraries_repositories_theorem_canonical_lane_mathlib
+end HautevilleHouse
